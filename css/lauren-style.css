@@ -1,0 +1,95 @@
+#google {
+       
+        font-family: 'Cabin', sans-serif;
+        font-weight: 100;
+}
+
+/* .grid-container.about-lauren li{
+
+    list-style-type: none;
+} */
+
+.prove {
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+
+.for-class p {
+    font-family: 'Courier New', Courier, monospace;
+
+
+}
+
+.for-class .hello {
+
+    font-weight: 300;
+}
+
+
+.for-class .goodbye{
+
+    background-color: brown;
+}
+
+.for-class .why {
+
+    text-align: right;
+}
+
+
+div.more-selectors ul {
+
+    margin: 1fr;
+}
+
+ul li.adjust {
+
+    color: orangered;
+}
+
+div.more-selectors p {
+
+    color: green;
+}
+
+
+.grid-container.about-lauren{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    
+    
+  }
+
+  .grid-container.about-lauren>div {
+   
+    text-align: left;
+    padding:20px 0;
+    font-size: 30px;
+  }
+
+
+  .grid-container.management-tips{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 50px;
+    padding-top: 10vh;
+    
+  }
+
+  a.micro{
+    grid-template-columns: .5fr .5fr;
+    /* Why didn't this work? I'm trying to have each picture take up half of the column. */
+
+  }
+
+  .more-selectors {
+      margin: 10%;
+
+  }
+
+  #need {
+      color: burlywood;
+  }
