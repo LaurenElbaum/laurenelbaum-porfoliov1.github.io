@@ -30,7 +30,7 @@
 
 .for-class .goodbye{
 
-    background-color: brown;
+    background-color: rgb(236, 178, 178);
 }
 
 .for-class .why {
@@ -46,7 +46,7 @@ div.more-selectors ul {
 
 ul li.adjust {
 
-    color: orangered;
+    color:brown;
 }
 
 div.more-selectors p {
@@ -91,5 +91,5 @@ div.more-selectors p {
   }
 
   #need {
-      color: burlywood;
+      color: brown;
   }
