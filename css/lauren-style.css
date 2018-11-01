@@ -119,9 +119,9 @@ div.more-selectors p {
 
 
 
+/* 
 
-
-/* @media only screen and (min-width: 320px) {
+@media only screen and (min-width: 320px) {
     body:after {
         content: "320 to 480px";
         background-color: hsla(90,60%,40%,0.7);
@@ -144,8 +144,8 @@ div.more-selectors p {
     body:after {
         content: "1024 and up";
         background-color: hsla(360,60%,40%,0.7);
-    }
-} */
+    } 
+}*/
 
 @media only screen and (min-width: 320px) {
 
@@ -166,9 +166,10 @@ div.more-selectors p {
         padding-top: 15%
         /* Why isn't this working to add padding on the top of #1 */
     }
-    /* h1{
-        font-size: 5px;
-    } */ 
+    
+    h1{
+        padding-right: 50px;
+    }  
 
     /* How do I get this to work??? */
 
@@ -185,7 +186,7 @@ div.more-selectors p {
     }
 
 
-@media only screen and (min-width: 480px) {
+@media only screen and (min-width: 668px) {
 
     
 
@@ -195,6 +196,13 @@ div.more-selectors p {
     grid-gap: 50px;
     padding-top: 10vh;
     
+    
   }
 
+  h1{
+     padding-top: 10%; 
+     
+  }
+
+  
 }
